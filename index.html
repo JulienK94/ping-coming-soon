@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+  />
+
+  <script src="https://kit.fontawesome.com/85d4a69580.js" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+
+  <main>
+    <img class="logo" src="./images/logo.svg" alt="logo" />
+      <p class="title">We are launching <span>soon!</span></p>
+      <p class="info">Subscribe and get notified</p>
+
+      <div class="form-box">
+        <label class="label" for="email">
+          <input
+            class="input"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your email address..."
+          />
+          <span class="message inactive" id="message"></span>
+        </label>
+        <button class="button" id="button">Notify Me</button>
+      </div>
+
+      <img
+        class="dashboard"
+        src="./images/illustration-dashboard.png"
+        alt="illustration-dashboard"
+      />
+  </main>
+
+  <footer>
+    <div class="social-media">
+      <div><i class="fa-brands fa-facebook-f"></i></div>
+      <div><i class="fa-brands fa-twitter"></i></div>
+      <div><i class="fa-brands fa-instagram"></i></div>
+    </div>
+
+    <p class="copyright">
+      <i class="fa-regular fa-copyright"></i>Copyright Ping. All rights
+      reserved.
+    </p>
+  </footer>
+
+  <script src="./script.js"></script>
+
+</body>
+</html>
